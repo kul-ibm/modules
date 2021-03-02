@@ -22,3 +22,7 @@ module "createManagedServer" {
 output "public-ips" {
   value = module.createServer.public_ip
 }
+
+output "public-ips-managedServer" {
+  value = module.createManagedServer.public_ip
+}
